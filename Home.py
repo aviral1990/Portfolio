@@ -1,6 +1,6 @@
 import pandas
 import streamlit as st
-import pandas as pd
+
 def Row_gap(gap):
     while (gap):
         st.write("")
