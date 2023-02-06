@@ -1,7 +1,9 @@
 import smtplib,ssl
+import os
 
 USERNAME="aviral18@gmail.com"
-PASSWORD="nmopuluqxihzibza"
+#remember to run script as admin/main user
+PASSWORD=os.getenv("PASSWORD")      #get value from PASSWORD environment variable declared
 
 def send_email(message):
 
